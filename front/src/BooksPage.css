@@ -1,0 +1,171 @@
+#title {
+  text-align: center;
+}
+
+.form-style-3{
+  float:top;
+	max-width: 450px;
+	background: #FAFAFA;
+	padding: 30px;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+}
+.form-style-3 ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.form-style-3 li{
+	display: block;
+	padding: 9px;
+	border:1px solid #DDDDDD;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.Modal {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   right: auto;
+   bottom: auto;
+   background-color: transparent;
+   transform: translate(-50%, -50%);
+ }
+
+#books {
+  text-align: center;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+  font-size: 18px;
+  color:white;
+
+}
+
+#books td, #books th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#books tr{background-color: #6B9FFF;}
+/*
+#books tr:hover {
+  color:black;
+  background-color: #0040ff;}
+*/
+#books th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0080ff;
+  color: white;
+}
+#books input[type="submit"]{
+  font-size: 13px;
+  background-color: red;
+  color : white;
+  border: none;
+}
+#books input[type="button"]{
+  font-size: 15px;
+  background-color:  #0080ff;
+  color : white;
+  border: none;
+}
+#books input[name="add"]{
+  font-size: 19px;
+  background-color: #0080ff;
+  color : white;
+  border-radius: 13px;
+  border: #ffffff;
+  text-align: center;
+}
+#books input[type="date"]
+{
+  color:white;
+  text-align: center;
+  background: transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 17px;
+	padding: 0;
+	font-family: Courier;
+  padding-left: 51px;
+}
+
+#books input[type="text"],
+#books input[type="number"]
+{
+  color:white;
+  text-align: center;
+  background: transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 17px;
+	padding: 0;
+	font-family: Courier;
+}
+
+.box {
+  margin: 28px auto;
+  margin-left: 29px;
+  margin-right: 19px;
+}
+.box select {
+  float: left;
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 153px auto;
+  font-size: 19px;
+  border-radius: 5px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  appearance: button;
+  outline: none;
+  font-family: Courier;
+}
+.box input[type="submit"]{
+  float: left;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 43px;
+  border-radius: 5px;
+  font-size: 19px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  appearance: button;
+  outline: none;
+}
+.box input[type="button"]{
+  float:right;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: red;
+  color: white;
+  padding: 12px;
+  width: auto;
+  border-radius: 5px;
+  font-size: 19px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  appearance: button;
+  outline: none;
+}
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+}
